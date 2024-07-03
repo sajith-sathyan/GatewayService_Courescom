@@ -11,7 +11,7 @@
             res.send("Data from server");
         });
         
-        app.use('/api/userService', proxy("http://localhost:4040"));
+        app.use('/api/userService', proxy("https://gatewayservice-courescom.onrender.com"));
         app.use('/api/courseService', proxy("http://localhost:9090"));
         app.use('/api/paymentService', proxy("http://localhost:6060"));
         app.use('/api/categoryService', proxy("http://localhost:7070"));
