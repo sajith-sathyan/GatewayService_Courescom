@@ -11,7 +11,7 @@
             res.send("Data from server");
         });
         
-        app.use('/api/userService', proxy("        const express = require("express");
+        
         const cors = require("cors");
         const proxy = require("express-http-proxy");
 
